@@ -1,0 +1,142 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#layout {
+    width: 800px;
+    height: auto;
+}
+
+.header {
+    display: grid;
+    text-align: center;
+    gap: 2em;
+    padding: 2em;
+    background-color: gray;
+    color: white;
+    grid-template-columns: 800px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 340px 450px;
+    gap: 2em;
+}
+
+#leftSection {
+    padding: 6em 1em 0px 1em;
+    font-size: 15px;
+}
+
+
+.anidado-grid {
+    float: right;
+    width: 80%;
+}
+
+.leftMenuContainer {
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.rightMenuContainer {
+    font-size: 16px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+
+.image {
+    display: grid;
+    border-radius: 150px;
+    border: 5px solid gray;
+    position: relative;
+    top: -120px;
+    left: 20px;
+}
+
+.table-main {
+    border: 0px;
+}
+
+.table-main td {
+    padding: 5px;
+    vertical-align: top;
+
+}
+
+.skillBarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 9px;
+
+}
+
+.progress {
+    width: 50%;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+progress {
+    height: 18px;
+    border-radius: 20px;
+}
+
+progress::-moz-progress-bar {
+    background: #ddd;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-value {
+    background: #808080;
+    border-radius: 20px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 20px;
+    background: #ddd;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: start;
+    text-align: left;
+    width: 100%;
+    border-bottom: 2px grey solid;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.subtitle>svg {
+    height: 25px;
+    color: gray;
+}
+
+.subtitle>span {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.unordenated-list {
+    list-style: none;
+    padding: 0px !important;
+}
+
+.unordenated-list li {
+    padding-bottom: 5px;
+}
